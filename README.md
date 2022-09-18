@@ -1,1 +1,0 @@
-# Academic blog for phd application
