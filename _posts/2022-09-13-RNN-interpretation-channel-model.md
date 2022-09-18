@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "RNN based channel model with self-attention as interpretation module"
-background: '/img/posts/06.jpg'
+background: '/img/pages/simon.jpg'
 ---
 
 <p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>
@@ -14,7 +14,7 @@ background: '/img/posts/06.jpg'
 
 In our reseach project, $$x^{<t>}$$ stands for the i-th bit in block. For each bit at position $$t$$ , the activation 
 
- $a^{<t>}$ updated as $a^{\langle t\rangle}=g_1\left(W_{a a} a^{<t-1\rangle}+W_{a x} x^{<t\rangle}+b_a\right)$ and  $y^{<t>}$ updated as $y^{<t>}=g_2\left(W_{y a} a^{<t>}+b_y\right)$ , where $W_{a x}, W_{a a}, W_{y a}, b_a, b_y$ are coefficients shared temporally.
+ $$a^{<t>}$$ updated as $$a^{\langle t\rangle}=g_1\left(W_{a a} a^{<t-1\rangle}+W_{a x} x^{<t\rangle}+b_a\right)$$ and  $$y^{<t>}$$ updated as $$y^{<t>}=g_2\left(W_{y a} a^{<t>}+b_y\right)$$ , where $$W_{a x}, W_{a a}, W_{y a}, b_a, b_y$$ are coefficients shared temporally.
 
 
 
