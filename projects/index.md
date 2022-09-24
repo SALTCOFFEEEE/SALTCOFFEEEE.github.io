@@ -4,14 +4,15 @@ title: Projects
 background: '/img/pages/simon.jpg'
 ---
 
-<h1 style="text-align: center;">EECS 605-Fast Style transfer app</h1>
+<h2 style="text-align: center;">EECS 605-Fast Style transfer app</h2>
 
 ![image-20220924014009501](https://tva1.sinaimg.cn/large/e6c9d24egy1h6hn3i8pz4j20tp0i37ac.jpg)
 
-This project is a cloud implementation of fast-neural-style in PyTorch. A React app was deployed in Heroku that can funcitons image style transformation via designed AWS cloud architecture and several Rest APIs. The application can be found at [here](https://fast-transfer-style-ap.herokuapp.com/). 
+This project is a cloud implementation of fast-neural-style in PyTorch. A React app was deployed in Heroku that can funcitons image style transformation via designed AWS cloud architecture and several Rest APIs.\\
+[[link](https://fast-transfer-style-ap.herokuapp.com)] [[doc](https://fast-transfer-style-ap.herokuapp.com/report)][[code](https://github.com/wcy111/EECS605-fast-transfer-style-app)]
 
-<h1 style="text-align: center;">EECS 545-Implementation of XGBoost</h1> 
+<h2 style="text-align: center;">EECS 545-Implementation of XGBoost</h2> 
 
 <img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h6hnfas841j20h00jc76y.jpg" alt="image-20220924015140523" style="zoom:67%;" />
 
-We implement XGBoost as well as its built-in methods for calculating the feature importance from  scratch and verified on Higgs and Adult census income data. With the best feature selection method on the adult census income dataset we were able to reduce the training dimensions by 1/3 while reducing the test accuracy by only 0.007%.
+Implemented XGBoost as well as its built-in methods for calculating the feature importance from  scratch and verified on Higgs and Adult census income data. With the best feature selection method on the adult census income dataset we were able to reduce the training dimensions by 1/3 while reducing the test accuracy by only 0.007%.
