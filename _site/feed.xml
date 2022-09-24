@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-09-18T01:03:01-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Chenyu Wang</title><subtitle>Academic blog</subtitle><author><name>Chenyu Wang</name></author><entry><title type="html">RNN based channel model with self-attention as interpretation module</title><link href="http://localhost:4000/2022/09/13/RNN-interpretation-channel-model.html" rel="alternate" type="text/html" title="RNN based channel model with self-attention as interpretation module" /><published>2022-09-13T00:00:00-04:00</published><updated>2022-09-13T00:00:00-04:00</updated><id>http://localhost:4000/2022/09/13/RNN-interpretation-channel-model</id><content type="html" xml:base="http://localhost:4000/2022/09/13/RNN-interpretation-channel-model.html"><![CDATA[<p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-09-24T03:25:27-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Chenyu Wang</title><subtitle>Academic blog</subtitle><author><name>Chenyu Wang</name></author><entry><title type="html">Remote Server Envoriment For ML Project</title><link href="http://localhost:4000/2022/09/21/Configure-remote-sever.html" rel="alternate" type="text/html" title="Remote Server Envoriment For ML Project" /><published>2022-09-21T00:00:00-04:00</published><updated>2022-09-21T00:00:00-04:00</updated><id>http://localhost:4000/2022/09/21/Configure-remote-sever</id><content type="html" xml:base="http://localhost:4000/2022/09/21/Configure-remote-sever.html"><![CDATA[<h1 id="remote-development-using-ssh">Remote Development using SSH</h1>
+
+<p>The Visual Studio Code Remote - SSH extention allows us to open a remote folder on any remote machine, virtual machine. The work flow is shown below,</p>
+
+<p><img src="https://code.visualstudio.com/assets/docs/remote/ssh/architecture-ssh.png" alt="img" /></p>
+
+<h2 id="connect-romte-server-with-vscode">Connect romte server with vscode</h2>
+
+<p>Follow <a href="https://code.visualstudio.com/docs/remote/ssh-tutorial">the official tutorial</a>, we are fine to connect remote server with vscode.</p>
+
+<h2 id="configuring-key-based-authentication">Configuring key based authentication</h2>
+
+<p>Typing password each time we connect to remote server is no doubt annoying. Here, set uo SSH key based authentication for your remote host can be useful. To avoid redundencym, follow <a href="https://code.visualstudio.com/docs/remote/troubleshooting">this tutorial</a>.</p>
+
+<h1 id="install-anaconda">Install Anaconda</h1>
+
+<p>Conda is an open-source package and environment management system. To install conda we first have Anaconda Installers downloaded at our local machine and then uploaded by drag the file to remote server.</p>
+
+<p>follow <a href="https://linoxide.com/install-anaconda-on-ubuntu/">tutorial</a>.</p>
+
+<h2 id="useful-conda-command">Useful conda command</h2>
+
+<p><code class="language-plaintext highlighter-rouge">conda info --envs</code> - list of all your envs</p>
+
+<p><code class="language-plaintext highlighter-rouge">conda create --name &lt;env_name&gt;</code> - create env with name</p>
+
+<h2 id="pytorch--cuda">Pytorch &amp; Cuda</h2>
+
+<p><a href="https://pytorch.org/get-started/locally/">here</a></p>
+
+<h1 id="git-clone-project">Git clone project</h1>
+
+<p><code class="language-plaintext highlighter-rouge">git clone &lt;repo_link&gt;</code></p>]]></content><author><name>Chenyu Wang</name></author><summary type="html"><![CDATA[Remote Development using SSH]]></summary></entry><entry><title type="html">RNN based channel model with self-attention as interpretation module</title><link href="http://localhost:4000/2022/09/13/RNN-interpretation-channel-model.html" rel="alternate" type="text/html" title="RNN based channel model with self-attention as interpretation module" /><published>2022-09-13T00:00:00-04:00</published><updated>2022-09-13T00:00:00-04:00</updated><id>http://localhost:4000/2022/09/13/RNN-interpretation-channel-model</id><content type="html" xml:base="http://localhost:4000/2022/09/13/RNN-interpretation-channel-model.html"><![CDATA[<p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>
 
 <h2 id="rnngru-architecture">RNN(GRU) Architecture</h2>
 
@@ -24,13 +56,4 @@
 
 <h3 id="self-attention-rnn">Self-attention RNN</h3>
 
-<p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
-
-<p><img class="img-fluid" src="https://source.unsplash.com/Mn9Fa_wQH-M/800x450" alt="Demo Image" />
-<span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span></p>
-
-<p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
-
-<p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
-
-<p>Placeholder text by <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by <a href="https://unsplash.com/">Unsplash</a>.</p>]]></content><author><name>Chenyu Wang</name></author><summary type="html"><![CDATA[For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.]]></summary></entry></feed>
+<p>Self-attention was proposed by researchers at Google Research and Google Brain. It was proposed due to  challenges faced by encoder-decoder dealing with long sequences.</p>]]></content><author><name>Chenyu Wang</name></author><summary type="html"><![CDATA[For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.]]></summary></entry></feed>

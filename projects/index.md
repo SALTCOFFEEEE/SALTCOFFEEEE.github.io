@@ -1,55 +1,17 @@
 ---
 layout: page
-title: Posts
+title: Projects
 background: '/img/pages/simon.jpg'
 ---
 
+<h1 style="text-align: center;">EECS 605-Fast Style transfer app</h1>
 
-{% for post in paginator.posts %}
+![image-20220924014009501](https://tva1.sinaimg.cn/large/e6c9d24egy1h6hn3i8pz4j20tp0i37ac.jpg)
 
-<article class="post-preview">
-  <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-    <h2 class="post-title">{{ post.title }}</h2>
-    {% if post.subtitle %}
-    <h3 class="post-subtitle">{{ post.subtitle }}</h3>
-    {% else %}
-    <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
-    {% endif %}
-  </a>
-  <p class="post-meta">Posted by
-    {% if post.author %}
-    {{ post.author }}
-    {% else %}
-    {{ site.author }}
-    {% endif %}
-    on {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
-  </p>
-</article>
+This project is a cloud implementation of fast-neural-style in PyTorch. A React app was deployed in Heroku that can funcitons image style transformation via designed AWS cloud architecture and several Rest APIs. The application can be found at [here](https://fast-transfer-style-ap.herokuapp.com/). 
 
-<hr>
+<h1 style="text-align: center;">EECS 545-Implementation of XGBoost</h1> 
 
-{% endfor %}
+<img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h6hnfas841j20h00jc76y.jpg" alt="image-20220924015140523" style="zoom:67%;" />
 
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-
-<div class="clearfix">
-
-  {% if paginator.previous_page %}
-  <a class="btn btn-primary float-left" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr;
-    Newer<span class="d-none d-md-inline"> Posts</span></a>
-  {% endif %}
-
-  {% if paginator.next_page %}
-  <a class="btn btn-primary float-right" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older<span class="d-none d-md-inline"> Posts</span> &rarr;</a>
-  {% endif %}
-
-</div>
-
-{% endif %}
-
-
-{% for project in site.projects %}
-  <h2> {{ project.title }} </h2>
-  <p>{{ project.description }}</p>
-{% endfor %}
+We implement XGBoost as well as its built-in methods for calculating the feature importance from  scratch and verified on Higgs and Adult census income data. With the best feature selection method on the adult census income dataset we were able to reduce the training dimensions by 1/3 while reducing the test accuracy by only 0.007%.

@@ -1,55 +1,20 @@
 ---
 layout: page
-title: Posts
+title: Publications
 background: '/img/pages/simon.jpg'
 ---
+<h1 style="text-align: center;">Conference papers</h1>
 
 
-{% for post in paginator.posts %}
-
-<article class="post-preview">
-  <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-    <h2 class="post-title">{{ post.title }}</h2>
-    {% if post.subtitle %}
-    <h3 class="post-subtitle">{{ post.subtitle }}</h3>
-    {% else %}
-    <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
-    {% endif %}
-  </a>
-  <p class="post-meta">Posted by
-    {% if post.author %}
-    {{ post.author }}
-    {% else %}
-    {{ site.author }}
-    {% endif %}
-    on {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
-  </p>
-</article>
-
-<hr>
-
-{% endfor %}
-
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-
-<div class="clearfix">
-
-  {% if paginator.previous_page %}
-  <a class="btn btn-primary float-left" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr;
-    Newer<span class="d-none d-md-inline"> Posts</span></a>
-  {% endif %}
-
-  {% if paginator.next_page %}
-  <a class="btn btn-primary float-right" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older<span class="d-none d-md-inline"> Posts</span> &rarr;</a>
-  {% endif %}
-
-</div>
-
-{% endif %}
+1. **C. Wang**, X. Miao, Y. Xi, M. Bi, L. Li and W. Hu, ***"Interpretable and visualized SHAP-based equalizer with feature selection in IMDD system,"*** 2021 Optical Fiber Communications Conference and Exhibition **(OFC)**, 2021, pp. 1-3.
 
 
-{% for project in site.projects %}
-  <h2> {{ project.title }} </h2>
-  <p>{{ project.description }}</p>
-{% endfor %}
+
+2. **C. Wang**, X. Miao, Y. Xi, M. Bi and W. Hu, *"A new LightGBM-based Equalizer enabled high-capacity PAM-4 and NRZ transmission in the 10-G class system,"* *2020 ACP and IPOC*, 2020, pp. 1-3.
+
+3. Y. Xi, **C. Wang**, X. Miao, M. Bi and W. Hu, *"High-efficient Equalizer based on the simplified Deep Neural Network for 56Gb/s/λ PAM-4 in C-band 10G DML-based Short reach system,"* *2020 ACP and IPOC*, 2020, pp. 1-3.
+
+<h1 style="text-align: center;">Journal  paper</h1>
+ 
+
+1. Y. Xi, M. Bi, M. Xin, **C. Wang**, J. Yu and W. Hu, *"Simplified SVM Equalization Algorithm Based on Single Hyperplane Training Enabled 50Gb/s PAM-4/8 With 10-G Optics in NG-PON System,"* in IEEE Photonics Journal, vol. 13, no. 4, pp. 1-7, Aug. 2021.

@@ -1,0 +1,29 @@
+I"m<p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>
+
+<h2 id="rnngru-architecture">RNN(GRU) Architecture</h2>
+
+<p><img src="https://stanford.edu/~shervine/teaching/cs-230/illustrations/architecture-rnn-ltr.png?9ea4417fc145b9346a3e288801dbdfdc" alt="img" /></p>
+
+<p>In our reseach project, \(x^{&lt;t&gt;}\) stands for the i-th bit in block. For each bit at position \(t\) , the activation</p>
+
+<p>\(a^{&lt;t&gt;}\) updated as \(a^{\langle t\rangle}=g_1\left(W_{a a} a^{&lt;t-1\rangle}+W_{a x} x^{&lt;t\rangle}+b_a\right)\) and  \(y^{&lt;t&gt;}\) updated as \(y^{&lt;t&gt;}=g_2\left(W_{y a} a^{&lt;t&gt;}+b_y\right)\) , where \(W_{a x}, W_{a a}, W_{y a}, b_a, b_y\) are coefficients shared temporally.</p>
+
+<h3 id="loss-funciton-of-rnn">Loss funciton of RNN</h3>
+
+\[\mathcal{L}(\widehat{y}, y)=\sum_{t=1}^{T_y} \mathcal{L}\left(\widehat{y}^{&lt;t&gt;}, y^{&lt;t&gt;}\right)\]
+
+<h3 id="backpropagation-through-time">Backpropagation through time</h3>
+
+\[\frac{\partial \mathcal{L}^{(T)}}{\partial W}=\left.\sum_{t=1}^T \frac{\partial \mathcal{L}^{(T)}}{\partial W}\right|_{(t)}\]
+
+<p>Backpropagation is done at each point in time. At timestep $T$, the derivative of the loss $\mathcal{L}$ with respect to weight matrix $W$ is expressed as above.</p>
+
+<h3 id="bidirectional-rnn">Bidirectional RNN</h3>
+
+<p><img src="https://stanford.edu/~shervine/teaching/cs-230/illustrations/bidirectional-rnn-ltr.png?e3e66fae56ea500924825017917b464a" alt="img" style="zoom:50%;" /></p>
+
+<h3 id="self-attention-rnn">Self-attention RNN</h3>
+
+<p>Self-attention was proposed by researchers at Google Research and Google Brain. It was proposed due to  challenges faced by encoder-decoder dealing with long sequences.</p>
+
+:ET
