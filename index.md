@@ -16,7 +16,8 @@ background: '/img/pages/simon.jpg'
 I'm **Chenyu Wang**, currently a master student studying machine learning at University of Michigan. In my spare time, I like reading novels and watching animes & movies. 
 
 
-
+## RESEARCH 
+My research interests are in the areas of machine learning, and deep learning, focusing on applications to Iot. 
 
 
 
