@@ -28,7 +28,7 @@ My research interests are in the areas of machine learning, and deep learning, f
 ## MY FAVOURITES
 ------
 **Movie**:《The Curious Case of Benjamin Button》 \\
-**Novel**: 《The Little Prince》《绝代双骄/Handsome Siblings》\\
+**Novels**: 《The Little Prince》《绝代双骄/Handsome Siblings》\\
 **Animes**: 《天元突破グレンラガン/Tengen Toppa Gurren Lagann》\\
 **Dramas**: 《True Detective》《白い巨塔；Shiroi Kyotō》
 

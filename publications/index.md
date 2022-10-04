@@ -7,7 +7,12 @@ background: '/img/pages/simon.jpg'
 ---------
 
 
--   **C. Wang**, X. Miao, Y. Xi, M. Bi, L. Li and W. Hu, ***"Interpretable and visualized SHAP-based equalizer with feature selection in IMDD system,"*** 2021 Optical Fiber Communications Conference and Exhibition **(OFC)**, 2021, pp. 1-3.\\
+-   B, Chang., **C, Wang** and Kim, H. S. *"Deep Learning-Based Joint Channel Encoding and Modulation with Digitally Controlled Oscillator,"* submitted to International Conference on Communications**(ICC)**, IEEE, 2023. 
+
+---------
+
+
+-   **C. Wang**, X. Miao, Y. Xi, M. Bi, L. Li and W. Hu, *"Interpretable and visualized SHAP-based equalizer with feature selection in IMDD system,"* 2021 Optical Fiber Communications Conference and Exhibition **(OFC)**, 2021, pp. 1-3.\\
 [[pdf](https://www.researchgate.net/publication/355441455_Interpretable_and_visualized_SHAP-based_equalizer_with_feature_selection_in_IMDD_system)]
 
 ---------
