@@ -19,7 +19,7 @@ I'm **Chenyu Wang**, currently a second year master student studying data scienc
 ## RESEARCH 
 Previously, my research focus on applying machine learning algorithm to the optical communication for designing robust and interpretable equalizer. Currently, I am research on the designing deep learning based joint channel coding and modulation schemes.
 
-My research interests are in the areas of machine learning, and deep learning, focusing on applications to Iot, Communication. I am also very interested in interpretable of machine learning and deep learning.
+My research interests are in the areas of machine learning, and deep learning, focusing on applications to Iot, Network communication. I am also very interested in interpretable machine learning and deep learning.
 
 
 <!-- <img src="https://film-grab.com/wp-content/uploads/photo-gallery/57%20(125).jpg?bwg=1547149951" alt="img"  /> -->
@@ -33,7 +33,7 @@ My research interests are in the areas of machine learning, and deep learning, f
 **Dramas**: 《True Detective》《白い巨塔；Shiroi Kyotō》
 
 ---
-[Curriculum Vitae]({{"CV"|relative_url }})\\
+[Curriculum Vitae]({{"cv"|relative_url }})\\
 [Publicaitons]({{"publications"|relative_url }})\\
 [Projects]({{"CV"|projects }})\\
 [Course]({{"courses"|relative_url }})

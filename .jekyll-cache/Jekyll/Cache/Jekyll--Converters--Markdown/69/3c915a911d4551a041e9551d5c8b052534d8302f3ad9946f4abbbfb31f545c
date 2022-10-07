@@ -1,4 +1,4 @@
-I"-<p><img src="/img/pages/me2.png" alt="Smiley face" style="float:right;width:174px;height:188px;margin-left:15px" border-radius="20px" /></p>
+I"2<p><img src="/img/pages/me2.png" alt="Smiley face" style="float:right;width:174px;height:188px;margin-left:15px" border-radius="20px" /></p>
 
 <h2 id="me">ME</h2>
 
@@ -7,7 +7,7 @@
 <h2 id="research">RESEARCH</h2>
 <p>Previously, my research focus on applying machine learning algorithm to the optical communication for designing robust and interpretable equalizer. Currently, I am research on the designing deep learning based joint channel coding and modulation schemes.</p>
 
-<p>My research interests are in the areas of machine learning, and deep learning, focusing on applications to Iot, Communication. I am also very interested in interpretable of machine learning and deep learning.</p>
+<p>My research interests are in the areas of machine learning, and deep learning, focusing on applications to Iot, Network communication. I am also very interested in interpretable machine learning and deep learning.</p>
 
 <!-- <img src="https://film-grab.com/wp-content/uploads/photo-gallery/57%20(125).jpg?bwg=1547149951" alt="img"  /> -->
 
@@ -19,7 +19,7 @@
 <strong>Dramas</strong>: 《True Detective》《白い巨塔；Shiroi Kyotō》</p>
 
 <hr />
-<p><a href="/CV">Curriculum Vitae</a><br />
+<p><a href="/cv">Curriculum Vitae</a><br />
 <a href="/publications">Publicaitons</a><br />
 <a href="CV">Projects</a><br />
 <a href="/courses">Course</a></p>
