@@ -1,7 +1,7 @@
 ---
 layout: page
 # title: Contact Me
-background: '/img/pages/simon.jpg'
+background: '/img/pages/rain.jpeg'
 form: true
 ---
 

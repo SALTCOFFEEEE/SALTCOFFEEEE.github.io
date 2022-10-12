@@ -2,7 +2,7 @@
 layout: page
 title: Research Page
 description: About me
-background: '/img/pages/simon.jpg'
+background: '/img/pages/rain.jpeg'
 # background: "https://images4.alphacoders.com/133/thumbbig-133246.webp" 
 
 
@@ -27,9 +27,8 @@ My research interests are in the areas of machine learning, and deep learning, f
 ## MY FAVOURITES
 ------
 **Movie**:《The Curious Case of Benjamin Button》 \\
-**Novels**: 《The Little Prince》《绝代双骄/Handsome Siblings》\\
-**Animes**: 《天元突破グレンラガン/Tengen Toppa Gurren Lagann》\\
-**Dramas**: 《True Detective》《白い巨塔；Shiroi Kyotō》
+**Novel**: 《The Little Prince》\\
+》
 
 ---
 [Curriculum Vitae]({{"cv"|relative_url }})\\

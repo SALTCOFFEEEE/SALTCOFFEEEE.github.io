@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Publications
-background: '/img/pages/simon.jpg'
+background: '/img/pages/rain.jpeg'
 ---
 <h2 style="text-align: center;">Conference papers</h2>
 ---------
