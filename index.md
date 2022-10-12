@@ -27,7 +27,7 @@ My research interests are in the areas of machine learning, and deep learning, f
 ## MY FAVOURITES
 ------
 **Movie**:《The Curious Case of Benjamin Button》 \\
-**Novel**: 《The Little Prince》\\
+**Novel**: 《The Little Prince》
 
 
 ---

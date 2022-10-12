@@ -8,8 +8,8 @@ background: '/img/pages/rain.jpeg'
 
 ![image-20220924014009501](https://tva1.sinaimg.cn/large/e6c9d24egy1h6hn3i8pz4j20tp0i37ac.jpg)
 
-This project is a cloud implementation of fast-neural-style in PyTorch. A React app was deployed in Heroku that can funcitons image style transformation via designed AWS cloud architecture and several Rest APIs.\\
-[[link](https://fast-transfer-style-ap.herokuapp.com)] [[doc](https://fast-transfer-style-ap.herokuapp.com/report)][[code](https://github.com/wcy111/EECS605-fast-transfer-style-app)](May take a little while to load)
+This project is a cloud implementation of fast-neural-style in PyTorch. A React app was deployed on Heroku that can funcitons image style transformation via designed AWS cloud architecture and several Rest APIs.\\
+[[link](https://fast-transfer-style-ap.herokuapp.com)] [[doc](https://fast-transfer-style-ap.herokuapp.com/report)][[code](https://github.com/wcy111/EECS605-fast-transfer-style-app)] (May take a little while to load)
 
 <h2 style="text-align: center;">EECS 545-Implementation of XGBoost</h2> 
 
