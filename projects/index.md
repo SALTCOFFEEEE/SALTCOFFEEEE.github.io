@@ -13,6 +13,6 @@ This project is a cloud implementation of fast-neural-style in PyTorch. A React 
 
 <h2 style="text-align: center;">EECS 545-Implementation of XGBoost</h2> 
 
-<img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h6hnfas841j20h00jc76y.jpg" alt="image-20220924015140523" style="zoom:67%;" />
+<!-- <img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h6hnfas841j20h00jc76y.jpg" alt="image-20220924015140523" style="zoom:67%;" /> -->
 
 Implemented XGBoost as well as its built-in methods for calculating the feature importance from  scratch and verified on Higgs and Adult census income data. With the best feature selection method on the adult census income dataset we were able to reduce the training dimensions by 1/3 while reducing the test accuracy by only 0.007%.
