@@ -7,7 +7,7 @@ background: '/img/pages/rain.jpeg'
 ---------
 
 
--   B, Chang., **C, Wang** and Kim, H. S. *"Deep Learning-Based Joint Channel Encoding and Modulation with Digitally Controlled Oscillator,"* will submit to International Conference on Communications**(ICC)**, IEEE, 2023. 
+-   B, Chang., **C, Wang** and Kim, H. S. *"Deep Learning-Based Joint Channel Coding and Frequency Modulation for Low Power Connectivity,"* will submit to International Conference on Communications**(ICC)**, IEEE, 2023. 
 
 ---------
 
