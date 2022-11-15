@@ -4,7 +4,6 @@ title: "RNN based channel model with self-attention as interpretation module"
 background: '/img/pages/simon.jpg'
 ---
 
-<p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>
 
 ## RNN(GRU) Architecture
 
