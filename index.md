@@ -28,7 +28,8 @@ My research interests are in the areas of machine learning, deep learning and op
 ------
 **Movie**: The Curious Case of Benjamin Button \\
 **Novel**: The Little Prince \\
-**Anime**: Gurren Lagann
+**Anime**: Gurren Lagann \\
+**Music**: Shape of My Heart
 
 ---
 [Curriculum Vitae]({{"cv"|relative_url }})\\
