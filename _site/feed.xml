@@ -1,38 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-10-23T16:29:36-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Chenyu Wang</title><subtitle>Academic blog</subtitle><author><name>Chenyu Wang</name></author><entry><title type="html">Remote Server Envoriment For ML Project</title><link href="http://localhost:4000/2022/09/21/Configure-remote-sever.html" rel="alternate" type="text/html" title="Remote Server Envoriment For ML Project" /><published>2022-09-21T00:00:00-04:00</published><updated>2022-09-21T00:00:00-04:00</updated><id>http://localhost:4000/2022/09/21/Configure-remote-sever</id><content type="html" xml:base="http://localhost:4000/2022/09/21/Configure-remote-sever.html"><![CDATA[<h1 id="remote-development-using-ssh">Remote Development using SSH</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-29T00:08:30-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Chenyu Wang</title><subtitle>Academic blog</subtitle><author><name>Chenyu Wang</name></author><entry><title type="html">Remote Server Envoriment For ML Project</title><link href="http://localhost:4000/2022/10/31/Reinforcement-Learning-intro.html" rel="alternate" type="text/html" title="Remote Server Envoriment For ML Project" /><published>2022-10-31T00:00:00-04:00</published><updated>2022-10-31T00:00:00-04:00</updated><id>http://localhost:4000/2022/10/31/Reinforcement%20Learning%20intro</id><content type="html" xml:base="http://localhost:4000/2022/10/31/Reinforcement-Learning-intro.html"><![CDATA[<h1 id="reinforcement-learning-basic">Reinforcement Learning basic</h1>
 
-<p>The Visual Studio Code Remote - SSH extention allows us to open a remote folder on any remote machine, virtual machine. The work flow is shown below,</p>
+<p>Reinforcement Learning has four essential elements:</p>
 
-<p><img src="https://code.visualstudio.com/assets/docs/remote/ssh/architecture-ssh.png" alt="img" /></p>
+<ol>
+  <li><strong>Agent.</strong> The program you train, with the aim of doing a job you specify.</li>
+  <li><strong>Environment.</strong> The world, real or virtual, in which the agent performs actions.</li>
+  <li><strong>Action.</strong> A move made by the agent, which causes a status change in the environment.</li>
+  <li><strong>Rewards.</strong> The evaluation of an action, which can be positive or negative.</li>
+</ol>
 
-<h2 id="connect-romte-server-with-vscode">Connect romte server with vscode</h2>
+<h2 id="difference-1-static-vsdynamic">Difference #1: Static Vs.Dynamic</h2>
 
-<p>Follow <a href="https://code.visualstudio.com/docs/remote/ssh-tutorial">the official tutorial</a>, we are fine to connect remote server with vscode.</p>
-
-<h2 id="configuring-key-based-authentication">Configuring key based authentication</h2>
-
-<p>Typing password each time we connect to remote server is no doubt annoying. Here, set uo SSH key based authentication for your remote host can be useful. To avoid redundencym, follow <a href="https://code.visualstudio.com/docs/remote/troubleshooting">this tutorial</a>.</p>
-
-<h1 id="install-anaconda">Install Anaconda</h1>
-
-<p>Conda is an open-source package and environment management system. To install conda we first have Anaconda Installers downloaded at our local machine and then uploaded by drag the file to remote server.</p>
-
-<p>follow <a href="https://linoxide.com/install-anaconda-on-ubuntu/">tutorial</a>.</p>
-
-<h2 id="useful-conda-command">Useful conda command</h2>
-
-<p><code class="language-plaintext highlighter-rouge">conda info --envs</code> - list of all your envs</p>
-
-<p><code class="language-plaintext highlighter-rouge">conda create --name &lt;env_name&gt;</code> - create env with name</p>
-
-<h2 id="pytorch--cuda">Pytorch &amp; Cuda</h2>
-
-<p><a href="https://pytorch.org/get-started/locally/">here</a></p>
-
-<h1 id="git-clone-project">Git clone project</h1>
-
-<p><code class="language-plaintext highlighter-rouge">git clone &lt;repo_link&gt;</code></p>]]></content><author><name>Chenyu Wang</name></author><summary type="html"><![CDATA[Remote Development using SSH]]></summary></entry><entry><title type="html">RNN based channel model with self-attention as interpretation module</title><link href="http://localhost:4000/2022/09/13/RNN-interpretation-channel-model.html" rel="alternate" type="text/html" title="RNN based channel model with self-attention as interpretation module" /><published>2022-09-13T00:00:00-04:00</published><updated>2022-09-13T00:00:00-04:00</updated><id>http://localhost:4000/2022/09/13/RNN-interpretation-channel-model</id><content type="html" xml:base="http://localhost:4000/2022/09/13/RNN-interpretation-channel-model.html"><![CDATA[<p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>
-
-<h2 id="rnngru-architecture">RNN(GRU) Architecture</h2>
+<p>The goal of supervised and unsupervised learning is to search for and learn about patterns in training data, which is quite static. RL, on the other hand, is about developing a policy that tells an agent which action to choose at each step — making it more dynamic.</p>]]></content><author><name>Chenyu Wang</name></author><summary type="html"><![CDATA[Reinforcement Learning basic]]></summary></entry><entry><title type="html">RNN based channel model with self-attention as interpretation module</title><link href="http://localhost:4000/2022/09/13/RNN-interpretation-channel-model-copy.html" rel="alternate" type="text/html" title="RNN based channel model with self-attention as interpretation module" /><published>2022-09-13T00:00:00-04:00</published><updated>2022-09-13T00:00:00-04:00</updated><id>http://localhost:4000/2022/09/13/RNN-interpretation-channel-model%20copy</id><content type="html" xml:base="http://localhost:4000/2022/09/13/RNN-interpretation-channel-model-copy.html"><![CDATA[<h2 id="rnngru-architecture">RNN(GRU) Architecture</h2>
 
 <p><img src="https://stanford.edu/~shervine/teaching/cs-230/illustrations/architecture-rnn-ltr.png?9ea4417fc145b9346a3e288801dbdfdc" alt="img" /></p>
 
@@ -56,4 +35,28 @@
 
 <h3 id="self-attention-rnn">Self-attention RNN</h3>
 
-<p>Self-attention was proposed by researchers at Google Research and Google Brain. It was proposed due to  challenges faced by encoder-decoder dealing with long sequences.</p>]]></content><author><name>Chenyu Wang</name></author><summary type="html"><![CDATA[For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.]]></summary></entry></feed>
+<p>Self-attention was proposed by researchers at Google Research and Google Brain. It was proposed due to  challenges faced by encoder-decoder dealing with long sequences.</p>]]></content><author><name>Chenyu Wang</name></author><summary type="html"><![CDATA[RNN(GRU) Architecture]]></summary></entry><entry><title type="html">RNN based channel model with self-attention as interpretation module</title><link href="http://localhost:4000/2022/09/13/RNN-interpretation-channel-model.html" rel="alternate" type="text/html" title="RNN based channel model with self-attention as interpretation module" /><published>2022-09-13T00:00:00-04:00</published><updated>2022-09-13T00:00:00-04:00</updated><id>http://localhost:4000/2022/09/13/RNN-interpretation-channel-model</id><content type="html" xml:base="http://localhost:4000/2022/09/13/RNN-interpretation-channel-model.html"><![CDATA[<h2 id="rnngru-architecture">RNN(GRU) Architecture</h2>
+
+<p><img src="https://stanford.edu/~shervine/teaching/cs-230/illustrations/architecture-rnn-ltr.png?9ea4417fc145b9346a3e288801dbdfdc" alt="img" /></p>
+
+<p>In our reseach project, \(x^{&lt;t&gt;}\) stands for the i-th bit in block. For each bit at position \(t\) , the activation</p>
+
+<p>\(a^{&lt;t&gt;}\) updated as \(a^{\langle t\rangle}=g_1\left(W_{a a} a^{&lt;t-1\rangle}+W_{a x} x^{&lt;t\rangle}+b_a\right)\) and  \(y^{&lt;t&gt;}\) updated as \(y^{&lt;t&gt;}=g_2\left(W_{y a} a^{&lt;t&gt;}+b_y\right)\) , where \(W_{a x}, W_{a a}, W_{y a}, b_a, b_y\) are coefficients shared temporally.</p>
+
+<h3 id="loss-funciton-of-rnn">Loss funciton of RNN</h3>
+
+\[\mathcal{L}(\widehat{y}, y)=\sum_{t=1}^{T_y} \mathcal{L}\left(\widehat{y}^{&lt;t&gt;}, y^{&lt;t&gt;}\right)\]
+
+<h3 id="backpropagation-through-time">Backpropagation through time</h3>
+
+\[\frac{\partial \mathcal{L}^{(T)}}{\partial W}=\left.\sum_{t=1}^T \frac{\partial \mathcal{L}^{(T)}}{\partial W}\right|_{(t)}\]
+
+<p>Backpropagation is done at each point in time. At timestep $T$, the derivative of the loss $\mathcal{L}$ with respect to weight matrix $W$ is expressed as above.</p>
+
+<h3 id="bidirectional-rnn">Bidirectional RNN</h3>
+
+<p><img src="https://stanford.edu/~shervine/teaching/cs-230/illustrations/bidirectional-rnn-ltr.png?e3e66fae56ea500924825017917b464a" alt="img" style="zoom:50%;" /></p>
+
+<h3 id="self-attention-rnn">Self-attention RNN</h3>
+
+<p>Self-attention was proposed by researchers at Google Research and Google Brain. It was proposed due to  challenges faced by encoder-decoder dealing with long sequences.</p>]]></content><author><name>Chenyu Wang</name></author><summary type="html"><![CDATA[RNN(GRU) Architecture]]></summary></entry></feed>

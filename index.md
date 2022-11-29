@@ -8,7 +8,7 @@ background: '/img/pages/rain.jpeg'
 
 ---
 
-<img src="/img/pages/me3.png"  alt="Smiley face" style="float:right;width:200px;height:188px;margin-left:15px" border-radius=20px>
+<img src="/img/pages/me3.png"  alt="Smiley face" style="float:right;width:200px;height:188px;margin-left:15px;border-radius:50%" >
 
 ## ME
 
