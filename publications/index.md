@@ -23,7 +23,7 @@ based frequency modulation with training strategies and hyperparamter optimizati
 Accepted by **OFC, 2021** |
   <a href="https://www.researchgate.net/publication/ 355441455_Interpretable_and_visualized_SHAP-based_equalizer_with_feature_selection_in_IMDD_system" style="color:#1772D0;">[pdf]</a> 
 
- Intergrated the game theoretic method SHapley Additive exPlanations(SHAP) to conventional machine learning based equalization scheme for better interpretation and less computational complexity.
+ Intergrated the game theoretic method SHapley Additive exPlanations(SHAP) to conventional machine learning based equalization scheme for better interpretation and less computational overhead.
  
 ---------
  <!-- PJ -->
