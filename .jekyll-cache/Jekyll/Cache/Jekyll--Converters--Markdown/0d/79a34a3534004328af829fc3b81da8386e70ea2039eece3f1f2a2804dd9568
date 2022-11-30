@@ -1,0 +1,48 @@
+I"<!-- <h2 style="text-align: center;">Conference papers</h2> -->
+
+<p><!-- ICC --></p>
+
+<p><a href="#0" style="color:#1772d0;font-weight: bold;">Deep Learning-Based Joint Channel Coding and Frequency Modulation for Low Power Connectivity</a><br />
+Boxuan Chang, <strong>Chenyu Wang</strong>, Hun-Seok Kim<br />
+ Submmited to <strong>ICC, 2023</strong></p>
+
+<p>Proposed a recurrent neural network based end to end joint channel coding
+and modulation scheme for digitally controlled oscillator
+based frequency modulation with training strategies and hyperparamter optimization.</p>
+
+<p><!-- OFC --></p>
+
+<hr />
+<p><a href="https://ieeexplore.ieee.org/document/9489966" style="color:#1772d0;font-weight: bold;">Interpretable and visualized SHAP-based equalizer with feature selection in IMDD system</a><br />
+<strong>Chenyu Wang</strong>, Xin Miao, Yu Xi, Meihua Bi, Longsheng Li, Weisheng Hu<br />
+Accepted by <strong>OFC, 2021</strong> |
+  <a href="https://www.researchgate.net/publication/ 355441455_Interpretable_and_visualized_SHAP-based_equalizer_with_feature_selection_in_IMDD_system" style="color:#1772D0;">[pdf]</a></p>
+
+<p>Intergrated the game theoretic method SHapley Additive exPlanations(SHAP) to conventional machine learning based equalization scheme for better interpretation and less computational complexity.</p>
+
+<hr />
+<p><!-- PJ --></p>
+
+<p><a href="https://ieeexplore.ieee.org/document/9512407" style="color:#1772d0;font-weight: bold;">Simplified SVM Equalization Algorithm Based on Single Hyperplane Training Enabled 50Gb/s PAM-4/8 With 10-G Optics in NG-PON System</a><br />
+Yu Xi, Meihua Bi, Xin Miao, <strong>Chenyu Wang</strong>, Jiasheng Yu, Weisheng Hu<br />
+<strong>IEEE Photonics Journal, 2021</strong> |   <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=9512407" style="color:#1772D0;">[pdf]</a></p>
+
+<p>A simplified SVM scheme with only single hyperplane to compensate the distortion of PAM-M signals(multiclassfication task)  in NG-PON System.</p>
+
+<hr />
+<p><!-- ACP LGB -->
+ <a href="https://ieeexplore.ieee.org/document/9512407" style="color:#1772d0;font-weight: bold;">A new LightGBM-based Equalizer enabled high-capacity PAM-4 and NRZ transmission in the 10-G class system</a><br />
+<strong>Chenyu Wang</strong>, Xin Miao, Yu Xi, Meihua Bi, Weisheng Hu<br />
+ACP&amp;IPOC, 2020</p>
+
+<p>A powerful euqalizer based on gradient-boosting framework LightGBM.</p>
+
+<hr />
+<p><!-- ACP DNN -->
+ <a href="https://ieeexplore.ieee.org/document/9365504" style="color:#1772d0;font-weight: bold;">High-efficient Equalizer based on the simplified Deep Neural Network for 56Gb/s/λ PAM-4 in C-band 10G DML-based Short reach system</a><br />
+ Yu Xi, <strong>Chenyu Wang</strong>, Xin Miao, Meihua Bi, Weisheng Hu<br />
+ACP&amp;IPOC, 2020</p>
+
+<p>High-efficient Equalizer based on pruned</p>
+
+:ET

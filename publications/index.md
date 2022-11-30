@@ -3,29 +3,53 @@ layout: page
 title: Publications
 background: '/img/pages/rain.jpeg'
 ---
-<h2 style="text-align: center;">Conference papers</h2>
----------
+<!-- <h2 style="text-align: center;">Conference papers</h2> -->
 
+ <!-- ICC -->
 
--   B, Chang., **C, Wang** and Kim, H. S. *"Deep Learning-Based Joint Channel Coding and Frequency Modulation for Low Power Connectivity,"*  submitted to International Conference on Communications**(ICC)**, IEEE, 2023. 
+  <a href="#0" style="color:#1772d0;font-weight: bold;">Deep Learning-Based Joint Channel Coding and Frequency Modulation for Low Power Connectivity</a>\\
+Boxuan Chang, **Chenyu Wang**, Hun-Seok Kim\\
+ Submmited to **ICC, 2023** 
 
----------
+Proposed a recurrent neural network based end to end joint channel coding
+and modulation scheme for digitally controlled oscillator
+based frequency modulation with training strategies and hyperparamter optimization.
 
-
--   **C. Wang**, X. Miao, Y. Xi, M. Bi, L. Li and W. Hu, *"Interpretable and visualized SHAP-based equalizer with feature selection in IMDD system,"* 2021 Optical Fiber Communications Conference and Exhibition **(OFC)**, 2021, pp. 1-3.\\
-[[pdf](https://www.researchgate.net/publication/355441455_Interpretable_and_visualized_SHAP-based_equalizer_with_feature_selection_in_IMDD_system)]
-
----------
-
--   **C. Wang**, X. Miao, Y. Xi, M. Bi and W. Hu, *"A new LightGBM-based Equalizer enabled high-capacity PAM-4 and NRZ transmission in the 10-G class system,"* *2020 ACP and IPOC*, 2020, pp. 1-3.
+ <!-- OFC -->
 
 ---------
+  <a href="https://ieeexplore.ieee.org/document/9489966" style="color:#1772d0;font-weight: bold;">Interpretable and visualized SHAP-based equalizer with feature selection in IMDD system</a>\\
+**Chenyu Wang**, Xin Miao, Yu Xi, Meihua Bi, Longsheng Li, Weisheng Hu\\
+Accepted by **OFC, 2021** |
+  <a href="https://www.researchgate.net/publication/ 355441455_Interpretable_and_visualized_SHAP-based_equalizer_with_feature_selection_in_IMDD_system" style="color:#1772D0;">[pdf]</a> 
 
--   Y. Xi, **C. Wang**, X. Miao, M. Bi and W. Hu, *"High-efficient Equalizer based on the simplified Deep Neural Network for 56Gb/s/λ PAM-4 in C-band 10G DML-based Short reach system,"* *2020 ACP and IPOC*, 2020, pp. 1-3.
+ Intergrated the game theoretic method SHapley Additive exPlanations(SHAP) to conventional machine learning based equalization scheme for better interpretation and less computational complexity.
+ 
+---------
+ <!-- PJ -->
+
+ <a href="https://ieeexplore.ieee.org/document/9512407" style="color:#1772d0;font-weight: bold;">Simplified SVM Equalization Algorithm Based on Single Hyperplane Training Enabled 50Gb/s PAM-4/8 With 10-G Optics in NG-PON System</a>\\
+Yu Xi, Meihua Bi, Xin Miao, **Chenyu Wang**, Jiasheng Yu, Weisheng Hu\\
+**IEEE Photonics Journal, 2021** |   <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9512407" style="color:#1772D0;">[pdf]</a> 
 
 
-<h2 style="text-align: center;">Journal  paper</h2>
+ A simplified SVM scheme with only single hyperplane to compensate the distortion of PAM-M signals(multiclassfication task)  in NG-PON System.
+ 
+---------
+ <!-- ACP LGB -->
+ <a href="https://ieeexplore.ieee.org/document/9512407" style="color:#1772d0;font-weight: bold;">A new LightGBM-based Equalizer enabled high-capacity PAM-4 and NRZ transmission in the 10-G class system</a>\\
+**Chenyu Wang**, Xin Miao, Yu Xi, Meihua Bi, Weisheng Hu\\
+ACP&IPOC, 2020 
+
+
+A powerful euqalizer based on Gradient-boosting framework LightGBM.
+
+---------
+ <!-- ACP DNN -->
+ <a href="https://ieeexplore.ieee.org/document/9365504" style="color:#1772d0;font-weight: bold;">High-efficient Equalizer based on the simplified Deep Neural Network for 56Gb/s/λ PAM-4 in C-band 10G DML-based Short reach system</a>\\
+ Yu Xi, **Chenyu Wang**, Xin Miao, Meihua Bi, Weisheng Hu\\
+ACP&IPOC, 2020 
+
+High-efficient equalizer based on pruned Deep Neural Network in short reach system.
  
 
--   Y. Xi, M. Bi, M. Xin, **C. Wang**, J. Yu and W. Hu, *"Simplified SVM Equalization Algorithm Based on Single Hyperplane Training Enabled 50Gb/s PAM-4/8 With 10-G Optics in NG-PON System,"* in IEEE Photonics Journal, vol. 13, no. 4, pp. 1-7, Aug. 2021.\\
-[[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9512407)]
