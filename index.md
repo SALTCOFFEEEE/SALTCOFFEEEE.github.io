@@ -17,7 +17,7 @@ I'm **Chenyu Wang**, currently a second year master student studying data scienc
 
 
 ## RESEARCH 
-Previously, my research focus on applying machine learning algorithm to the optical communication for designing robust and interpretable equalizer. This summer, supervised by professor Hun-Seok Kim, I researched on the designing deep learning based end to end joint training channel coding and modulation schemes. Now, I focus more on multimodal machine learning with application on autonomous driving.
+Previously, my research focus on applying machine learning algorithm to the optical communication for designing robust and interpretable equalizer. This summer, supervised by professor Hun-Seok Kim, I researched on designing deep learning based end to end joint training channel coding and modulation schemes. Now, I focus more on multimodal machine learning with application on autonomous driving.
 
 My research interests are in the areas of machine learning, deep learning and optimization, focusing on applications to Iot, Network communication, etc. I am also very interested in explainable AI.
 
