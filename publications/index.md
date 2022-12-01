@@ -37,7 +37,7 @@ Yu Xi, Meihua Bi, Xin Miao, **Chenyu Wang**, Jiasheng Yu, Weisheng Hu\\
  
 ---------
  <!-- ACP LGB -->
- <a href="https://ieeexplore.ieee.org/document/9512407" style="color:#1772d0;font-weight: bold;">A new LightGBM-based Equalizer enabled high-capacity PAM-4 and NRZ transmission in the 10-G class system</a>\\
+ <a href="https://ieeexplore.ieee.org/document/9365101" style="color:#1772d0;font-weight: bold;">A new LightGBM-based Equalizer enabled high-capacity PAM-4 and NRZ transmission in the 10-G class system</a>\\
 **Chenyu Wang**, Xin Miao, Yu Xi, Meihua Bi, Weisheng Hu\\
 ACP&IPOC, 2020 
 
