@@ -9,7 +9,7 @@ background: '/img/pages/rain.jpeg'
 
   <a href="#0" style="color:#1772d0;font-weight: bold;">Deep Learning-Based Joint Channel Coding and Frequency Modulation for Low Power Connectivity</a>\\
 Boxuan Chang, **Chenyu Wang**, Hun-Seok Kim\\
- Submmited to **ICC, 2023** 
+ Submitted to **ICC, 2023** 
 
 Proposed a recurrent neural network based end to end joint channel coding
 and modulation scheme for digitally controlled oscillator
