@@ -35,5 +35,5 @@ My research interests are in the areas of machine learning, deep learning and op
 ### **Navigation**
 [Curriculum Vitae]({{"cv"|relative_url }})\\
 [Publicaitons]({{"publications"|relative_url }})\\
-[Projects]({{"CV"|projects }})\\
+[Projects]({{"projects"|projects }})\\
 [Course]({{"courses"|relative_url }})
