@@ -21,7 +21,7 @@ based frequency modulation with training strategies and hyperparamter optimizati
   <a href="https://ieeexplore.ieee.org/document/9489966" style="color:#1772d0;font-weight: bold;">Interpretable and visualized SHAP-based equalizer with feature selection in IMDD system</a>\\
 **Chenyu Wang**, Xin Miao, Yu Xi, Meihua Bi, Longsheng Li, Weisheng Hu\\
 Accepted by **OFC, 2021** |
-  <a href="https://www.researchgate.net/publication/ 355441455_Interpretable_and_visualized_SHAP-based_equalizer_with_feature_selection_in_IMDD_system" style="color:#1772D0;">[pdf]</a> 
+  <a href="https://www.researchgate.net/publication/355441455_Interpretable_and_visualized_SHAP-based_equalizer_with_feature_selection_in_IMDD_system" style="color:#1772D0;">[pdf]</a> 
 
  Intergrated the game theoretic method SHapley Additive exPlanations(SHAP) to conventional machine learning based equalization scheme for better interpretation and less computational overhead.
  
