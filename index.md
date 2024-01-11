@@ -16,14 +16,13 @@ background: '/img/pages/rain.jpeg'
 ## ME
 
 
-I'm Chenyu Wang, currently a first-year PhD student in Electrical and Computer Engineering (ECE) at Boston University. In my spare time, I enjoy playing table tennis, engaging in board games, reading novels, and watching anime and movies.
-
+I'm Chenyu Wang, currently a first-year PhD student in Electrical and Computer Engineering (ECE) at Boston University. I got my master degree in ECE from University of Michigan majoring in data science and machine learning. In my spare time, I enjoy playing table tennis, engaging in board games, reading novels, and watching anime and movies.
 
 ## RESEARCH 
 
-Previously, my research focused on applying machine learning algorithms to optical communication, aiming to design robust and interpretable equalizers. During my master's program, I explored the design of deep learning-based end-to-end joint training for channel coding and modulation schemes, as well as multimodal machine learning applications in autonomous driving. Currently, my attention is more centered on explainable and trustworthy AI.
+Previously, my research focused on applying machine learning algorithms to optical communication, aiming to design robust and interpretable equalizers. During my master's program, I explored the design of deep learning-based end-to-end joint training modulation schemes, as well as multimodal sensor fusion in autonomous driving. Currently, my attention is more centered on explainable and trustworthy AI now.
 
-My research interests span across machine learning, deep learning, and optimization. I am particularly fascinated by the application of explainable AI in fields such as medical diagnostics and autonomous driving, where reliability and clarity of decision-making processes are crucial.
+My research interests span across machine learning, deep learning, and optimization. I am particularly fascinated by the explainable AI in fields such as medical diagnostics and autonomous driving, where reliability and clarity of decision-making processes are crucial.
 
 <!-- <img src="https://film-grab.com/wp-content/uploads/photo-gallery/57%20(125).jpg?bwg=1547149951" alt="img"  /> -->
 
