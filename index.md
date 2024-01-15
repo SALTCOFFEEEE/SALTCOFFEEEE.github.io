@@ -20,7 +20,7 @@ I'm Chenyu Wang, currently a first-year PhD student in Electrical and Computer E
 
 ## RESEARCH 
 
-Previously, my research focused on applying machine learning algorithms to optical communication, aiming to design robust and interpretable equalizers. During my master's program, I explored the design of deep learning-based end-to-end joint training modulation schemes, as well as multimodal sensor fusion in autonomous driving. Currently, my attention is more centered on explainable and trustworthy AI now.
+Previously, my research focused on applying machine learning algorithms to optical communication, aiming to design robust and interpretable equalizers. During my master's program, I explored the design of deep learning-based end-to-end joint training modulation schemes, as well as multimodal sensor fusion in autonomous driving. Currently, my attention is more centered on explainable and trustworthy AI.
 
 My research interests span across machine learning, deep learning, and optimization. I am particularly fascinated by the explainable AI in fields such as medical diagnostics and autonomous driving, where reliability and clarity of decision-making processes are crucial.
 
