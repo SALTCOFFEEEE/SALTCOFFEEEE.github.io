@@ -8,11 +8,11 @@ body {
 
 #wrap {
     width: 90%;
-    max-width: 800px; /* Adjust this to fit your content better */
+    max-width: 800px; /*Adjust this to fit your content better */
     margin: 0 auto;
     padding: 1.25rem; /* 20px converted to rem */
-    background: #fff;
-    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1); /* 10px converted to rem */
+    background: #f4f4f4;
+    /* box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1); 10px converted to rem */
 }
 
 #header {
