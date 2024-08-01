@@ -97,12 +97,34 @@ body {
 }
 
 .conf {
-    font-size: 1rem; /* Adjusted font size */
+    font-size: 1rem; 
     color: #333;
 }
 
 .description {
-    font-size: 1rem; /* Adjusted font size */
+    font-size: 1rem; 
     color: #555;
-    margin-top: 0.5rem; /* Add some space above the description */
+    margin-top: 0.5rem; 
 }
+
+#header_picture {
+    position: relative;
+}
+
+#play-button {
+    position: absolute;
+    top: 40%; 
+    left: 21%; 
+    transform: translate(-50%, -50%);
+    background: none; 
+    border: none; 
+    cursor: pointer; 
+}
+
+#play-button img {
+    width: 30px; 
+    height: auto; 
+}
+
+
+
