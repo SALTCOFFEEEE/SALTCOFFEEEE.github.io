@@ -128,3 +128,21 @@ body {
 
 
 
+.social-icons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #000; /* Default color */
+    font-size: 24px; /* Icon size */
+    text-decoration: none;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.social-icons a:hover {
+    color: #0077b5; /* Highlight color (LinkedIn blue for consistency) */
+    transform: scale(1.2); /* Slight zoom effect */
+}
