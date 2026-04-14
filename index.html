@@ -19,13 +19,16 @@
                     Boston University<br>
                 </p>
                 <div class="social-icons">
-                    <a href="https://scholar.google.com/citations?user=AyfJc-8AAAAJ&hl=en" target="_blank" aria-label="Google Scholar">
+                    <a class="social-badge" href="https://scholar.google.com/citations?user=AyfJc-8AAAAJ&hl=en" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar">
                         <i class="fas fa-graduation-cap"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/chenyu-wang-a0b339232/" target="_blank" aria-label="LinkedIn">
+                    <a class="social-badge" href="https://www.linkedin.com/in/chenyu-wang-a0b339232/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                         <i class="fab fa-linkedin"></i>
                     </a>
-                    <a href="mailto:chyuwang@bu.edu" aria-label="Email">
+                    <a class="social-badge" href="https://github.com/Heimerd1nger" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a class="social-badge" href="mailto:chyuwang@bu.edu" aria-label="Email">
                         <i class="fas fa-envelope"></i>
                     </a>
                 </div>
@@ -38,9 +41,8 @@
             </div>
         </div>
         <div id="intro">
-            <p>
-                <br>
-                I am Chenyu Wang, a second-year PhD Candidate in ECE at Boston University, co-advised by <a href="https://sites.bu.edu/depend/">Prof. Wenchao Li</a>
+            <p class="intro-text">
+                I am Chenyu Wang, a third-year PhD Candidate in ECE at Boston University, co-advised by <a href="https://sites.bu.edu/depend/">Prof. Wenchao Li</a>
                  and <a href="https://www.batman-lab.com/">Prof. Kayhan Batmanghelich</a>. 
                 I am now focused on vision-language models, uncertainty quantification in natural language generation, AI explainability and reasoning, and their applications in the medical domain.   
 
@@ -55,6 +57,44 @@
             <p class="subsection">Publications</p>
 
             <div class="publication">
+                <img class="icon" src="images/pub3.png" alt="Preprint Illustration">
+                <div class="publication_content">
+                    <div class="pub_title">Enhancing Fine-Grained Spatial Grounding in 3D CT Report Generation via Discriminative Guidance</div>
+                    <p class="authors">
+                        <b>Chenyu Wang</b>, Weicheng Dai, Han Liu, Wenchao Li, and Kayhan Batmanghelich<br>
+                        <i>Preprint, 2026</i> |
+                        <a class="resource-link resource-link-pdf" href="https://arxiv.org/pdf/2604.10437" target="_blank" rel="noopener noreferrer" aria-label="Paper PDF">
+                            <i class="fas fa-file-pdf" aria-hidden="true"></i>
+                            <span>PDF</span>
+                        </a>
+                        <span class="resource-link resource-link-code" aria-label="Code coming soon">
+                            <i class="fas fa-code" aria-hidden="true"></i>
+                            <span>Code</span>
+                        </span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="publication">
+                <img class="icon" src="images/pub4.png" alt="Workshop Paper Illustration">
+                <div class="publication_content">
+                    <div class="pub_title">VLM-UQBench: A Benchmark for Modality-Specific and Cross-Modality Uncertainties in Vision Language Models</div>
+                    <p class="authors">
+                        <b>Chenyu Wang</b>, Tianle Chen, HM Ahmad, Kayhan Batmanghelich, Wenchao Li<br>
+                        <i>CVPR 2026 TRUE-V Workshop</i> |
+                        <a class="resource-link resource-link-pdf" href="https://arxiv.org/pdf/2602.09214" target="_blank" rel="noopener noreferrer" aria-label="Paper PDF">
+                            <i class="fas fa-file-pdf" aria-hidden="true"></i>
+                            <span>PDF</span>
+                        </a>
+                        <span class="resource-link resource-link-code" aria-label="Code coming soon">
+                            <i class="fas fa-code" aria-hidden="true"></i>
+                            <span>Code</span>
+                        </span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="publication">
                 <img class="icon" src="https://shantanu-ai.github.io/images/ladder-acl2025.png" alt="Publication Image">
                 <div class="publication_content">
                     <div class="pub_title">LADDER: Language-Driven Slice Discovery and Error Rectification in Vision Classifiers
@@ -62,7 +102,15 @@
                     <p class="authors"> 
                         Shantanu Ghosh, Rayan Syed, <b>Chenyu Wang</b>, Vaibhav Choudhary, Binxu Li, Clare B. Poynton, Shyam Visweswaran, Kayhan Batmanghelich<br>
                         <!-- Accepted by <i>ICC, 2023</i> <span style="color:red;">(Highlight)</span> -->
-                        <i>Findings of ACL, 2025</i> | <a href="https://arxiv.org/pdf/2408.07832">[pdf]</a> | <a href="https://github.com/batmanlab/Ladder">[code]</a>
+                        <i>Findings of ACL, 2025</i> |
+                        <a class="resource-link resource-link-pdf" href="https://arxiv.org/pdf/2408.07832" target="_blank" rel="noopener noreferrer" aria-label="Paper PDF">
+                            <i class="fas fa-file-pdf" aria-hidden="true"></i>
+                            <span>PDF</span>
+                        </a>
+                        <a class="resource-link resource-link-code" href="https://github.com/batmanlab/Ladder" target="_blank" rel="noopener noreferrer" aria-label="Code repository">
+                            <i class="fas fa-code" aria-hidden="true"></i>
+                            <span>Code</span>
+                        </a>
                     </p>
                 
                 </div>
@@ -76,7 +124,15 @@
                     <p class="authors"> 
                         <b>Chenyu Wang</b>, Weichao Zhou, Shantanu Ghosh,  Kayhan Batmanghelich, Wenchao Li<br>
                         <!-- Accepted by <i>ICC, 2023</i> <span style="color:red;">(Highlight)</span> -->
-                        <i>Findings of NAACL, 2025</i> | <a href="https://arxiv.org/pdf/2412.04606">[pdf]</a> | <a href="https://github.com/BU-DEPEND-Lab/SCUQ-RRG">[code]</a>
+                        <i>Findings of NAACL, 2025</i> |
+                        <a class="resource-link resource-link-pdf" href="https://arxiv.org/pdf/2412.04606" target="_blank" rel="noopener noreferrer" aria-label="Paper PDF">
+                            <i class="fas fa-file-pdf" aria-hidden="true"></i>
+                            <span>PDF</span>
+                        </a>
+                        <a class="resource-link resource-link-code" href="https://github.com/BU-DEPEND-Lab/SCUQ-RRG" target="_blank" rel="noopener noreferrer" aria-label="Code repository">
+                            <i class="fas fa-code" aria-hidden="true"></i>
+                            <span>Code</span>
+                        </a>
                     </p>
                 
                 </div>
@@ -89,21 +145,14 @@
                     <p class="authors"> 
                         Boxuan Chang, <b>Chenyu Wang</b>, Hun-Seok Kim<br>
                         <!-- Accepted by <i>ICC, 2023</i> <span style="color:red;">(Highlight)</span> -->
-                        <i>ICC, 2023</i> 
+                        <i>ICC, 2023</i> |
+                        <a class="resource-link resource-link-pdf" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10278753" target="_blank" rel="noopener noreferrer" aria-label="Paper PDF">
+                            <i class="fas fa-file-pdf" aria-hidden="true"></i>
+                            <span>PDF</span>
+                        </a>
 
                     </p>
                   
-                </div>
-            </div>
-            <div class="publication">
-                <img class="icon" src="https://shap.readthedocs.io/en/latest/_images/example_notebooks_tabular_examples_model_agnostic_Multioutput_Regression_SHAP_39_2.png" alt="Publication Image">
-                <div class="publication_content">
-                    <div class="pub_title">Interpretable and visualized SHAP-based equalizer with feature selection in IMDD system</div>
-                    <p class="authors"> 
-                        <b>Chenyu Wang</b>, Xin Miao, Yu Xi, Meihua Bi, Longsheng Li, Weisheng Hu<br>
-                        <i>OFC, 2021</i> | <a href="https://ieeexplore.ieee.org/document/9489966">[pdf]</a>
-                    </p>
-                    <!-- <p class="description">Integrated the game theoretic method SHapley Additive exPlanations (SHAP) to conventional machine learning based equalization scheme for better interpretation and less computational overhead.</p> -->
                 </div>
             </div>
             <!-- <div class="publication">
@@ -112,7 +161,11 @@
                     <div class="pub_title">Simplified SVM Equalization Algorithm Based on Single Hyperplane Training Enabled 50Gb/s PAM-4/8 With 10-G Optics in NG-PON System</div>
                     <p class="authors"> 
                         Yu Xi, Meihua Bi, Xin Miao, <b>Chenyu Wang</b>, Jiasheng Yu, Weisheng Hu<br>
-                        <i>IEEE Photonics Journal, 2021</i> | <a href="https://ieeexplore.ieee.org/document/9512407">[pdf]</a>
+                        <i>IEEE Photonics Journal, 2021</i> |
+                        <a class="resource-link resource-link-pdf" href="https://ieeexplore.ieee.org/document/9512407" target="_blank" rel="noopener noreferrer" aria-label="Paper PDF">
+                            <i class="fas fa-file-pdf" aria-hidden="true"></i>
+                            <span>PDF</span>
+                        </a>
                     </p>
                     <!-- <p class="description">A simplified SVM scheme with only single hyperplane to compensate the distortion of PAM-M signals (multiclassification task) in NG-PON System.</p> -->
                 </div> 
