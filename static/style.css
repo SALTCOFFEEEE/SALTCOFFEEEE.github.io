@@ -19,12 +19,27 @@ body {
     /* box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1); 10px converted to rem */
 }
 
+/* White box behind each section */
+.card {
+    background-color: #fff;
+    padding: 2.25rem 2.75rem;
+    margin-bottom: 1.5rem;
+    border-radius: 4px;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+}
+
+.card > .subsection:first-child {
+    margin-top: 0;
+}
+
+.card > :last-child {
+    margin-bottom: 0;
+}
+
 #header {
     display: flex;
     justify-content: flex-start; /* Align items to the start */
     align-items: center;
-    padding-bottom: 1.25rem; /* 20px converted to rem */
-    border-bottom: 0.125rem solid #ddd; /* 2px converted to rem */
 }
 
 #header_content {
@@ -50,27 +65,222 @@ body {
 }
 
 #intro {
-    margin-top: 1.25rem; /* 20px converted to rem */
-    font-size: 1.35rem;
+    font-size: 1.2rem;
 }
 
-#intro a {
+#intro a, #news a, #misc a {
     color: #2a7ae2;
     text-decoration: none;
 }
 
-#intro a:visited {
+#intro a:visited, #news a:visited, #misc a:visited {
     color: #1756a9;
 }
 
-#intro a:hover {
+#intro a:hover, #news a:hover, #misc a:hover {
     color: #111;
     text-decoration: underline;
 }
 
-#intro .subsection {
-    margin-top: 0;
-    margin-bottom: 0.75rem;
+.intro-note {
+    font-size: 1rem;
+    color: #666;
+}
+
+#footer {
+    text-align: center;
+    font-size: 0.95rem;
+    color: #888;
+    padding: 0.5rem 0 1rem;
+}
+
+.news-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.news-list li {
+    display: flex;
+    gap: 1rem;
+    padding: 0.35rem 0;
+}
+
+.news-date {
+    flex: 0 0 5.5rem;
+    font-weight: bold;
+    color: #800000;
+}
+
+.news-text {
+    flex: 1;
+}
+
+.misc-list {
+    margin: 0;
+    padding-left: 1.25rem;
+    font-size: 1.2rem;
+}
+
+.misc-list li {
+    padding: 0.35rem 0;
+    transition: filter 0.6s ease, opacity 0.6s ease;
+}
+
+/* Misc: Heimerdinger turret that shoots away the blur (see turret.js) */
+#misc {
+    position: relative;
+}
+
+.misc-body {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.misc-body .misc-list {
+    flex: 1;
+}
+
+/* --hp (remaining hits) is set per line by turret.js */
+.misc-list li.blurred {
+    filter: blur(calc(var(--hp, 2) * 3.5px));
+    opacity: calc(1 - var(--hp, 2) * 0.2);
+    user-select: none;
+    pointer-events: none; /* links unlock once the line is revealed */
+}
+
+.turret {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.15rem;
+    padding: 0;
+    border: none;
+    background: none;
+    font: inherit;
+    color: #888;
+    cursor: pointer;
+}
+
+.turret svg {
+    width: 64px;
+    height: 64px;
+    overflow: visible;
+}
+
+.turret.armed svg {
+    animation: turret-idle 1.6s ease-in-out infinite;
+}
+
+@keyframes turret-idle {
+    50% { transform: translateY(-3px); }
+}
+
+.turret-barrel {
+    transform-box: view-box;
+    transform-origin: 32px 32px; /* PIVOT in misc.js */
+    transition: transform 0.15s ease-out;
+}
+
+.turret-hint {
+    font-size: 0.8rem;
+}
+
+.bolt {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 4px;
+    margin: -2px 0 0 -9px;
+    border-radius: 2px;
+    background: linear-gradient(90deg, rgba(63, 208, 255, 0), #3fd0ff 60%, #e8fbff);
+    box-shadow: 0 0 8px #3fd0ff;
+    pointer-events: none;
+}
+
+/* Small popup above the "Challenger" link; --shift is set by misc.js to keep it on screen */
+.rank-wrap {
+    position: relative;
+}
+
+.rank-pop {
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 10px);
+    z-index: 10;
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.22);
+    line-height: 1.2;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(calc(-50% + var(--shift, 0px)), 6px);
+    transition: opacity 0.18s ease, transform 0.18s ease, visibility 0.18s;
+}
+
+.rank-pop.open {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(calc(-50% + var(--shift, 0px)), 0);
+}
+
+.rank-pop.below {
+    bottom: auto;
+    top: calc(100% + 10px);
+}
+
+/* arrow pointing at the link */
+.rank-pop::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: calc(50% - var(--shift, 0px));
+    transform: translateX(-50%);
+    border: 6px solid transparent;
+    border-top-color: #fff;
+}
+
+.rank-pop.below::after {
+    top: auto;
+    bottom: 100%;
+    border-top-color: transparent;
+    border-bottom-color: #fff;
+}
+
+#misc .rank-pop a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.rank-pop img {
+    display: block;
+    height: 120px;
+    width: auto;
+    border-radius: 3px;
+}
+
+.bolt-impact {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 28px;
+    height: 28px;
+    margin: -14px 0 0 -14px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #e8fbff 0%, #3fd0ff 40%, rgba(63, 208, 255, 0) 70%);
+    pointer-events: none;
 }
 
 .intro-text {
@@ -81,6 +291,11 @@ body {
     font-size: 2.1rem;
     font-weight: bold;
     margin-top: 2.5rem; /* 40px converted to rem */
+    margin-bottom: 1rem;
+}
+
+.subsection + .publication {
+    margin-top: 0;
 }
 
 .publication {
@@ -89,6 +304,11 @@ body {
     margin-top: 1.25rem; /* 20px converted to rem */
     border-bottom: 1px solid #ddd;
     padding-bottom: 1.25rem;
+}
+
+.publication:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
 }
 
 .publication img.icon {
@@ -104,14 +324,15 @@ body {
 }
 
 .pub_title {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: bold;
     color: #800000; /* Dark red color to match style */
     text-decoration: none;
 }
 
 .authors {
-    font-size: 1.25rem;
+    font-size: 1.05rem;
+    margin: 0.4rem 0 0;
     color: #b80808; /* Dark red color to match style */
 }
 
@@ -136,7 +357,7 @@ body {
     margin-left: 0.35rem;
     padding: 0.15rem 0.55rem;
     border-radius: 999px;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 600;
     line-height: 1.2;
     text-decoration: none;
@@ -151,7 +372,7 @@ body {
 }
 
 .resource-link i {
-    font-size: 0.95rem;
+    font-size: 0.85rem;
 }
 
 .resource-link-pdf {
@@ -243,8 +464,12 @@ body {
     }
 
     #wrap {
-        width: 94%;
+        width: auto; /* a % width plus padding overflowed narrow screens */
         padding: 1.25rem;
+    }
+
+    .card {
+        padding: 1.75rem 2rem;
     }
 
     #header {
@@ -273,8 +498,25 @@ body {
     }
 
     #wrap {
-        width: 96%;
         padding: 1rem;
+    }
+
+    .card {
+        padding: 1.25rem;
+        margin-bottom: 1rem;
+    }
+
+    .misc-body {
+        gap: 1rem;
+    }
+
+    .turret svg {
+        width: 52px;
+        height: 52px;
+    }
+
+    .rank-pop img {
+        height: 100px;
     }
 
     #header_picture > img {

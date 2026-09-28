@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chenyu Wang</title>
     <link rel="stylesheet" href="static/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans|Tenor+Sans|Averia+Libre|Quantico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Tenor+Sans&family=Averia+Libre&family=Quantico&display=swap">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 </head>
 <body>
     <div id="wrap">
-        <div id="header">
-            <div id="header_content">  
+        <div id="header" class="card">
+            <div id="header_content">
                 <div class="name">Chenyu Wang</div>
                 <p class="affiliate">
                     Ph.D. Candidate<br>
@@ -40,11 +40,12 @@
                 </button>
             </div>
         </div>
-        <div id="intro">
+        <div id="intro" class="card">
+            <p class="subsection">About Me</p>
             <p class="intro-text">
-                I am Chenyu Wang, a third-year PhD Candidate in ECE at Boston University, co-advised by <a href="https://sites.bu.edu/depend/">Prof. Wenchao Li</a>
-                 and <a href="https://www.batman-lab.com/">Prof. Kayhan Batmanghelich</a>. 
-                 My research focuses on building vision-language models that are not only capable but trustworthy, emphasizing uncertainty quantification, shortcut mitigation, fine-grained spatial grounding, and reasoning.
+                I am Chenyu Wang, a fourth-year PhD Candidate in ECE at Boston University, co-advised by <a href="https://sites.bu.edu/depend/">Prof. Wenchao Li</a>
+                 and <a href="https://www.batman-lab.com/">Prof. Kayhan Batmanghelich</a>.
+                 My research is at the intersection of <b>multimodal LLMs and healthcare</b>. I've been working on uncertainty quantification, hallucination detection, and more recently agentic verification with tool use.
                  <br><br>
                  I study these problems in radiology report generation from 2D X-ray and 3D CT — a domain that demands both fine-grained visual grounding and factual correctness.
 
@@ -52,10 +53,50 @@
                 how humans can incorporate knowledge and specifications into models, 
                 and how effective communication can be established between humans and models. -->
                 <br><br>
-                Prior to joining Boston University, I earned a Master’s degree in ECE from the University of Michigan, Ann Arbor, and a Bachelor’s degree from Hangzhou Dianzi University.            </p>
+                Prior to joining Boston University, I earned a Master’s degree in ECE from the University of Michigan, Ann Arbor, and a Bachelor’s degree from Hangzhou Dianzi University.
+            </p>
+            <p class="intro-note">I'm always open to collaborations and discussions. Feel free to <a href="mailto:chyuwang@bu.edu">send me an email</a> if you are interested!</p>
         </div>
 
-        <div id="publications">
+        <div id="news" class="card">
+            <p class="subsection">News</p>
+            <ul class="news-list">
+                <li>
+                    <span class="news-date">Oct 2026</span>
+                    <span class="news-text">I will be joining <b>Amazon</b> as an Applied Scientist Intern in Santa Clara, CA.</span>
+                </li>
+                <li>
+                    <span class="news-date">Jun 2026</span>
+                    <span class="news-text">One collaborative <a href="https://eccv.ecva.net/virtual/2026/poster/3589">paper</a> has been accepted to <b>ECCV 2026</b>.</span>
+                </li>
+                <li>
+                    <span class="news-date">Apr 2026</span>
+                    <span class="news-text">One <a href="https://arxiv.org/pdf/2602.09214">paper</a> has been accepted to the <b>CVPR 2026 TRUE-V Workshop</b>.</span>
+                </li>
+                <li>
+                    <span class="news-date">Apr 2026</span>
+                    <span class="news-text">One <a href="https://arxiv.org/pdf/2604.10437">paper</a> in collaboration with <b>Siemens Healthineers</b> is now available as a preprint.</span>
+                </li>
+                <li>
+                    <span class="news-date">Feb 2026</span>
+                    <span class="news-text">One collaborative <a href="https://www.nature.com/articles/s41551-025-01599-y">paper</a> has been accepted by <b>Nature Biomedical Engineering</b>.</span>
+                </li>
+                <li>
+                    <span class="news-date">Jul 2025</span>
+                    <span class="news-text">One <a href="https://arxiv.org/pdf/2408.07832">paper</a> has been accepted to <b>Findings of ACL 2025</b>.</span>
+                </li>
+                <li>
+                    <span class="news-date">Apr 2025</span>
+                    <span class="news-text">One <a href="https://arxiv.org/pdf/2412.04606">paper</a> has been accepted to <b>Findings of NAACL 2025</b>.</span>
+                </li>
+                <li>
+                    <span class="news-date">Sep 2023</span>
+                    <span class="news-text">Joined Boston University as a PhD student in ECE.</span>
+                </li>
+            </ul>
+        </div>
+
+        <div id="publications" class="card">
             <p class="subsection">Publications</p>
 
             <div class="publication">
@@ -169,12 +210,46 @@
                             <span>PDF</span>
                         </a>
                     </p>
-                    <!-- <p class="description">A simplified SVM scheme with only single hyperplane to compensate the distortion of PAM-M signals (multiclassification task) in NG-PON System.</p> -->
-                </div> 
-            </div> 
+                    <p class="description">A simplified SVM scheme with only single hyperplane to compensate the distortion of PAM-M signals (multiclassification task) in NG-PON System.</p>
+                </div>
+            </div> -->
         </div>
+
+        <div id="misc" class="card">
+            <p class="subsection">Misc</p>
+            <div class="misc-body">
+                <button class="turret" type="button" aria-label="Fire the turret">
+                    <svg viewBox="0 0 64 64" aria-hidden="true">
+                        <g stroke="#6b5b45" stroke-width="3" stroke-linecap="round">
+                            <line x1="32" y1="42" x2="18" y2="60"/>
+                            <line x1="32" y1="42" x2="46" y2="60"/>
+                            <line x1="32" y1="42" x2="32" y2="61"/>
+                        </g>
+                        <!-- cannon, rotated by misc.js to aim -->
+                        <g class="turret-barrel">
+                            <rect x="36" y="28.5" width="19" height="7" rx="2" fill="#9c7428"/>
+                            <rect x="52" y="26.5" width="5" height="11" rx="1.5" fill="#6b5b45"/>
+                        </g>
+                        <line x1="32" y1="20" x2="37" y2="12" stroke="#6b5b45" stroke-width="2" stroke-linecap="round"/>
+                        <circle cx="37.5" cy="11" r="2.5" fill="#3fd0ff"/>
+                        <circle cx="32" cy="32" r="13" fill="#d9a441" stroke="#9c7428" stroke-width="2"/>
+                        <circle cx="32" cy="32" r="8" fill="#3fd0ff" opacity="0.35"/>
+                        <circle cx="32" cy="32" r="5" fill="#3fd0ff"/>
+                        <circle cx="30.5" cy="30.5" r="1.5" fill="#e8fbff"/>
+                    </svg>
+                    <span class="turret-hint">click me</span>
+                </button>
+                <ul class="misc-list">
+                    <li>When I was young, I played League of Legends and reached <span class="rank-wrap"><a class="rank-link" href="images/challenger.jpg" aria-expanded="false">Challenger</a><span class="rank-pop"><a href="images/challenger.jpg" target="_blank" rel="noopener"><img src="images/challenger.jpg" alt="Promoted to Challenger" loading="lazy">Challenger</a><a href="images/master.jpg" target="_blank" rel="noopener"><img src="images/master.jpg" alt="Promoted to Master" loading="lazy">Master</a></span></span> on the Chinese server, mostly playing Heimerdinger and Ekko, and sometimes Vayne.</li>
+                    <li>I also play Path of Exile, which ate up tons of my time before my PhD.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="footer">&copy; 2026 Chenyu Wang</div>
         <audio id="background-music" src="music/music.mp3" preload="auto"></audio>
     </div>
     <script src="music.js"></script>
+    <script src="misc.js"></script>
 </body>
 </html>
