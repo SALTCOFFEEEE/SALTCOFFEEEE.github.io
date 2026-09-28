@@ -131,6 +131,7 @@ body {
 /* Misc: Heimerdinger turret that shoots away the blur (see turret.js) */
 #misc {
     position: relative;
+    touch-action: manipulation; /* rapid taps on the turret shouldn't trigger double-tap zoom on phones */
 }
 
 .misc-body {
@@ -163,6 +164,9 @@ body {
     font: inherit;
     color: #888;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .turret svg {
